@@ -39,8 +39,8 @@ void RenderUI() {
     // if (is_selected)
     //   ImGui::SetItemDefaultFocus();
     createCheckboxes(MyApp::variables);
+    ImGui::EndListBox();
   }
-  ImGui::EndListBox();
 
   ImGui::End();
 }

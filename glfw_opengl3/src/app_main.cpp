@@ -30,7 +30,7 @@ void ModeSelector() {
 
     static bool dont_ask_me_next_time = false;
     ImGui::PushStyleVar(ImGuiStyleVar_FramePadding, ImVec2(0, 0));
-    ImGui::Checkbox("Select Mode: ", &dont_ask_me_next_time);
+    ImGui::Text("Select Mode: ");
     ImGui::PopStyleVar();
 
     if (ImGui::Button("Debug", ImVec2(120, 0))) {
